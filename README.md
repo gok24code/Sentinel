@@ -14,8 +14,7 @@
 Sentinel, dağıtık bir mimariye sahiptir ve performans odaklı tasarlanmıştır:
 
 1.  **The Agent (Python):** Hedef Linux makinede `systemd` servisi olarak çalışır. CPU/RAM üzerinde minimum yük oluşturarak `/proc` dizinini tarar ve kernel seviyesindeki process çağrılarını analiz eder.
-2.  **The Core (Go/Golang):** Ajanlardan gelen yüksek hacimli log verilerini karşılayan, analiz eden ve veritabanına yazan yüksek performanslı REST API sunucusudur. _(Geliştirme aşamasında)_
-3.  **Dashboard:** Tehditlerin görselleştirildiği yönetim paneli.
+2.  **Dashboard:** Tehditlerin görselleştirildiği yönetim paneli.
 
 ---
 
